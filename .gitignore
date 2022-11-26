@@ -1,0 +1,13 @@
+# Ignore Gradle-Maven project-specific cache directory
+**/.gradle
+
+# Ignore Gradle-Maven build output directory
+**/build
+**/target
+
+# Ignore Intelij IDEA directories
+**/.idea
+**/out
+
+# Ignore Logs directory
+**/logs

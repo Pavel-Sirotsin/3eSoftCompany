@@ -1,0 +1,34 @@
+# special symbols: :, {, }, [, ], ,, &, *, #, ?, |, -, <, >, =, !, %, @, `
+spring:
+  main:
+    banner-mode: off
+  mvc:
+    throw-exception-if-no-handler-found: on
+  output:
+    ansi:
+      enabled: always
+
+logging:
+#  logback:
+#    rollingpolicy:
+#      clean-history-on-start: on
+#      max-file-size: 10
+#      total-size-cap: 20
+#      max-history: 1
+  charset:
+    console: utf-8
+    file: utf-8
+  level:
+    root: info
+    org:
+      springframework:
+        boot:
+          autoconfigure: ERROR
+      apache:
+        catalina: info
+#  file:
+#    path: logs
+
+
+
+
